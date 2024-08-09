@@ -1,4 +1,4 @@
-# Solução interna para um problema que enchia o disco C do servidor e não envia os exames para a aplicação laudoweb (visualização de exames)
+# Solução interna para um problema que enchia o disco C do servidor e não enviava os exames para a aplicação laudoweb (visualização de exames)
 
 O servidor onde fica a central de recebimento de exames enche-se de arquivos de imagens feitos no raio X e enviados para a aplicação LaudoWeb para visualização dos exames e análise pelos médicos. Esse trabalho era sempre feito manualmente, entrando pasta por pasta, mês por mês, dia por dia, e verificando o que podia ser excluído ou não (os exames do dia atual não podiam ser excluídos). Às vezes, eram puxados exames antigos com a data de hoje para revisualização.
 
