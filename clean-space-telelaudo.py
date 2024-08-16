@@ -12,8 +12,9 @@ current_day = str(datetime.datetime.now().day)
 current_date = datetime.datetime.now()
 
 # Verifica se o disco local C tem menos de 5GB de espaço livre
-c_drive = os.getenv('SystemDrive')
-total, used, free = shutil.disk_usage(c_drive)
+# DiskDrive = os.getenv('SystemDrive')
+DiskDrive = 'E:'
+total, used, free = shutil.disk_usage(DiskDrive)
 
 # Convertendo bytes para gigabytes
 totalGB = total / (1024 ** 3)
